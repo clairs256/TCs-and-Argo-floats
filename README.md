@@ -8,4 +8,4 @@ Another section of code matches tropical cyclone tracks and dates to Argo locati
 
 There are also code sections which remove duplicates (the above doesn't consider if the argo match is a duplicate) and produces plots of temperature v depth data and maps of TC tracks and mooring locations.
 
-This is pretty rough so far. No QC flags have been applied yet
+This is pretty rough so far and the code is set up in sections (for problem solving as I go). No QC flags have been applied yet
