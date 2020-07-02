@@ -1,5 +1,5 @@
 # TCs-and-Argo-floats
-Match TCs in Australian region with Argo floats
+Match TCs in east coast of Australian region to Argo floats
 
 Extracts temprature (TEMP_ADJUSTED - delayed data instead of realtime) data from Argo netcdf files and converts pressure data (PRES_ADJUSTED) to depth. 
 The Argo data has been downloaded from the IMOS website. The easiest way to download the data from IMOS AODN portal is to choose the bounding box and analysis period (e.g. 2001 to 2018, argo data started on 2001 in QLD region) then download as unsubsetted netcdf and unzip the folder. The code extracts data from each D file (delayed - higher level of QC). 
